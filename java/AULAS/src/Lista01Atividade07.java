@@ -22,7 +22,7 @@ public class Lista01Atividade07 {
 		x = (c*e)-(b*f)/(a*e)-(b*d);
 		y = (a*f)-(c*d)/(a*e)-(b*d);
 		
-		System.out.println("O valor de x é: "+x+" o valor de y é: "+y);
+		System.out.printf("O valor de x é: "+x+" o valor de y é: %.2f",y);
 	}
 
 }
